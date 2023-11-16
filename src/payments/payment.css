@@ -1,0 +1,56 @@
+.payment-fragment{
+    height: 100vh;
+    margin-top: 8vmax;
+    margin-bottom: 9vmax;
+}
+
+.card-info{
+    margin: auto;
+    text-align: center;
+    font-size: 2vmax;
+    color: rgb(49, 48, 48);
+    padding: 1vmax;
+}
+
+.payment-container{
+    text-align: center;
+    width: 20vmax;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.paymentInput{
+    text-align: center;
+    margin: auto;
+    width: 10vmax;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    margin: 2vmax ;
+    padding: 1vmax 0.5vmax;
+}
+
+.payment-pay-btn{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding: 1vmax 1vmax;
+    margin-top: 2.5vmax;
+    background-color: tomato;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.4s all;
+}
+
+.payment-pay-btn:hover{
+    background-color: rgb(224, 62, 34);
+}
+
+
+@media  screen and (max-width:768px) {
+    .payment-fragment{
+        height: 60vh;
+        margin-top: 16vmax;
+    }
+}

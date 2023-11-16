@@ -1,0 +1,108 @@
+
+.scrolla{
+    /* padding: 1vw 2.8vw; */
+    transition: 0.4s all;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+    margin-bottom: 7vmax;
+}
+
+.Feature > h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-bottom: 1px solid rgba(88, 88, 88, 0.527) ;
+    width: 20vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 4vw;
+}
+
+.product1{
+    /* border: 1px solid ; */
+    max-height: 20vmax;
+    max-width: 20vmax;
+    margin-top: 2vmax;
+}
+
+.productCard{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    border: 1px solid;
+    min-height: 45vh;
+    /* min-width: 35vw; */
+    max-height: 35vw;
+    height: 40vw;
+    width: 24vw;
+    margin: auto;
+    margin: 0 1vmax;
+    margin-top: 2vw;
+    transition: 0.4s all;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+
+.productCard > img{
+    padding-top: 1.5vw;
+    margin: auto;
+    margin-top: 2vmax;
+    width: 90%;
+    
+}
+
+.productCard > p  {
+    padding-left: 2vw;
+    font-size: 1.2vmax;
+
+}
+.productCard > span{
+    padding: 2vw;
+    color: tomato;
+    font-size: 1.3vmax;
+}
+.productCard:hover{
+    box-shadow: 2px 2px 7px ;
+    transform: translateY(-1vw);
+}
+
+.productCard > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1.4vw;
+
+}
+.productCard > div > span  {
+    font-size: 1.2vmax;
+}
+
+@media screen and (max-width:768px) {
+    .Filterbox{
+        margin-top: vmax;
+    }
+    .productCard{
+        min-width: 44vw;
+    }
+    
+    .productCard > p  {
+        padding-left: 2vw;
+        font-size: 1.8vmax;
+    
+    }
+    .productCard > span{
+        font-size: 1.9vmax;
+    }
+    .productCard > div > span  {
+       font-size: 1.4vmax;
+    }
+}

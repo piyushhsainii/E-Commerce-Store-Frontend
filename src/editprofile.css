@@ -1,0 +1,105 @@
+
+.signupBoxer{
+    margin: 0 auto;
+    margin-top: 13.9vmax;
+    height: 46vmax;
+    text-align: center;
+}
+
+.filename{
+    padding-top: 1vmax;
+    padding-left: 5vmax;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.8vmax;
+    cursor: pointer;
+    color: rgb(209, 39, 39);
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+.filename > input[type="file"]{
+    background-color: white;
+    padding: 4vmax;
+    padding-bottom: 0vmax;
+    cursor: pointer;
+}
+
+
+.choose-file, .choose-file-box{
+    text-align: center;
+    /* border: 1px solid rgb(228, 10, 10); */
+    padding-top: 1vmax;
+    padding: 1vmax;
+    display: flex;
+    font-size: 1vmax;
+    justify-content: center;
+}
+
+.choose-file-box{
+    width: 14vmax;
+    margin-left: 2.5vmax;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+}
+
+.pfp{
+    width: 3vmax;
+}
+
+.signupnamer ,.signupEmailer , .choose-filer{
+    padding: 2vmax;
+}
+
+.choose-filer{
+    text-align: center;
+    padding-top: 1vmax;
+    padding: 1vmax;
+    display: flex;
+    font-size: 1vmax;
+    justify-content: center;
+}
+
+.signupnamer{
+    margin: 1.2vmax  auto;
+
+}
+
+.signupnamer > input , .signupEmailer > input , .choose-filer {
+    margin: auto;
+    width: 18vmax;
+    padding: 1.7vmax;
+    font-size: 1.5vmax;
+    padding-left: 2vmax; 
+    border: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+@media screen and (max-width:768px){
+
+    .Form-Container {
+        max-width: 80%; 
+        height: 100vmax;
+        margin-top: 10vmax;
+      }
+
+      .signupBoxer{
+        margin: 0 auto;
+        margin-top: 13.9vmax;
+        height: 22vmax;
+        height: 49.4vh;
+        text-align: center;
+        padding-top: 14vmax;
+    }
+
+}
+
+.lol{
+    padding: 9vmax 2vmax;
+}

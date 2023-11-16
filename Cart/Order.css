@@ -1,0 +1,16 @@
+.order-success-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-success-father{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    gap: 1vmax;
+    text-decoration: none;
+}

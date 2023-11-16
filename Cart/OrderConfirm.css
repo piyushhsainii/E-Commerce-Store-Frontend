@@ -1,0 +1,134 @@
+.userShippingInfo, .userShippingInfo-2{
+    width: 100vw;
+    /* height: 40vh; */
+    margin-top: 9vmax;
+}
+
+.BAAP{
+    display: flex;
+    flex-direction: row;
+}
+
+.baap-container{
+    width: 50vw;
+    /* border: 1px solid red;npm */
+}
+
+.wife-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    margin-top: 8vmax;
+    /* border: 1px solid rgb(5, 5, 5); */
+    width: 50vw;
+    color: rgb(48, 48, 48);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.wife-container > div {
+    display: flex;
+    justify-content:space-between;
+    width: 20vmax;
+    /* border: 1px solid; */
+    padding: 1vmax;
+}
+
+.userShippingInfo-2{
+    margin-top: 0;
+}
+
+.user-info-subcontainer-1{
+    /* border: 1px solid; */
+    width: 50vw;
+    padding: 1.5vmax;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.CART-ITEM-SPACE{
+    padding: 0.5vmax;
+}
+
+.shippinginfo-container{
+    margin: auto;
+    max-width: 19vmax;
+    padding: 1.7vmax;
+    padding-left: 2vmax; 
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    font-size: 1.3vmax;
+}
+
+.shippinginfo-container-2{
+    /* border: 1px solid; */
+    width: 50vw;
+    padding: 1.5vmax;
+}
+
+
+.summary-image{
+    width: 10vmax;
+}
+
+.cart-summary{
+    display: flex;
+    justify-content:flex-start;
+    gap: 5.5vmax;
+    font-family: sans-serif;
+    color: rgb(14, 14, 14);
+    align-items: center;
+    text-decoration: none;
+    padding-left: 1vmax;
+}
+
+
+.productLink{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.proceed{
+    padding: 1vmax;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5vmax;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    .shippinginfo-container{
+        font-size: 2vmax;
+    }
+    .BAAP{
+        display: flex;
+        flex-direction: column;
+    }
+    .wife-container{
+        margin-top: 5vmax;
+        justify-content: unset;
+        height: 40vmax;
+    }
+    .user-info-subcontainer-1{
+        align-items: center;
+        margin: auto;
+    }
+    .summary-image{
+        width: 9vmax;
+    }
+    .userShippingInfo-2{
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        max-width: 15vmax;
+        margin-top: 8vmax;
+        /* margin-left: 6vmax; */
+        font-size: 1.6vmax;
+    }
+}

@@ -1,0 +1,79 @@
+.shipping ,  .country{
+    margin: 1.2vmax  auto;
+    max-width: 26vw;
+}
+
+.shipping > input , .country > select ,.continueBtn {
+    margin: auto;
+    max-width: 19vmax;
+    padding: 1.7vmax;
+    padding-left: 2vmax; 
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    font-size: 1.3vmax;
+}
+
+.country > select {
+    max-width: 23vmax;
+    /* margin-left: 0.21vmax; */
+}
+
+.justforspace{
+    margin-top: 5vmax;
+}
+
+.continueBtn{
+    display: flex;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    width: 15vmax;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 5vmAX;
+}
+
+.downspace{
+    margin-bottom: 6vmax;
+    text-align: center;
+
+}
+
+#steppermargin{
+    margin-top:8vmax;
+
+}
+
+.MultiStepConnection-line {
+    display: none !important
+}
+
+.MultiStepConnector-root{
+    height:1px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.MultiStepConnector-active,
+.MultiStepConnector-completed{
+    background-color: tomato;
+}
+
+
+@media screen and (max-width:768px){
+    .shipping > input , .country > select {
+        font-size: 2vmax;
+        width: 35vmax;
+    }
+    .shipping ,  .country{
+        margin: 1.2vmax  auto;
+        max-width: 40vw;
+    }
+    .justforspace{
+        margin-top: 5vmax;
+    }
+    .downspace{
+        margin-bottom: 5vmax;
+    }
+    #steppermargin{
+        margin-top: 16vmax;
+    }
+}

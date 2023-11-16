@@ -1,0 +1,90 @@
+.create-product-container{
+    width: 100;
+    border: 1px solid ;
+    text-align: center;
+}
+
+.create-container{
+    padding: 1vmax;
+    border: 1px solid;
+    width: 20vw;
+    margin: 0.5vmax auto;
+    
+}
+
+
+
+.create-product-container  input  {
+    padding: 10px 35px;
+    font-family: monospace;
+    outline: none;
+    border: none;
+}
+
+.create-product-container  select {
+    padding: 10px 45px;
+    font-size: 1vmax;
+    font-family: monospace;
+    border: none;
+    cursor: pointer;
+
+}
+.create-product-container  option {
+    font-family: monospace;
+    padding: 2vmax;
+    font-size: 1vmax;
+}
+
+
+.create-svg{
+    position: relative !important;
+    top: 0.4vmax !important;
+}
+.create-svg-2{
+    position: relative !important;
+    bottom: 4vmax !important;
+}
+
+.create-product-btn{ 
+    background-color: tomato !important ; 
+    padding: 1.4vmax 9.2vmax !important;
+    color: white !important;
+    
+
+}
+
+.create-container > input > #file-upload-button{
+    color: black;
+    font-family: monospace !important; 
+}
+
+.MuiButton-label{
+    color: unset;
+}
+
+.image-mapping > img {
+    /* max-height: 10vmax;
+    max-width: 3vmax;
+    overflow: auto;
+    text-align: center;
+    align-items: center; */
+    width: 3vmax;
+    margin: 0 0.5vmax;
+
+}
+
+.image-mapping {
+    /* display: flex; */
+    margin: auto;
+    width: 20vw;
+    overflow:scroll;
+      /* width: 100%; */
+      overflow: auto;
+}
+
+
+@media screen and (max-width:900px) {
+    .create-container{
+        width: 80%;
+     }
+}

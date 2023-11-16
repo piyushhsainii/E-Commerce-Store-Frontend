@@ -1,0 +1,91 @@
+.sidebar-container{
+    display: grid;
+    width: 100vw;
+    max-width: 100%;
+    height: 160vh;
+    grid-template-columns: 1fr 5fr;
+    border: 1px solid;
+    position: absolute;
+    background-color: white;
+}
+
+.sidebar-container1-0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6vmax;
+    font-family: sans-serif;
+    width: 100%;
+    height: 50vh;
+    
+}
+
+.sidebar-container1-0 a{
+    text-decoration: none;
+}
+
+.sidebar-container1-1{
+    background-color: tomato;
+    width: 100%;
+    text-align: center;
+    color: white;
+    /* font-weight:bold; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.sidebar-container1-2{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    gap: 11vmax;
+}
+
+
+.sidebar-container1-2  a {
+    border: 2px rgb(104, 173, 0);
+    border-style:ridge;
+    padding: 1vmax 3vmax;
+    border-radius: 50%;
+    color: black;
+    margin-top: 1vmax;
+    transition: 0.4s all;
+}
+
+.sidebar-container1-2  a:hover{
+    background-color: rgba(104, 173, 0);
+    color: white;
+}
+
+.lineChart{
+    width: 80vw !important;
+    height: auto;
+    margin: auto;
+}
+
+.lineChart > canvas {
+    height: 20vmax !important;
+    margin: auto;
+    margin-top: 3vmax;
+}
+
+.doughnutChart{
+    height: 25vmax;
+}
+
+@media screen and (max-width:786px) {
+    .sidebar-container{
+        grid-template-columns: 1fr;
+        border:unset
+    }
+    .sidebar-container1-2  a {
+        padding: 0.5vmax 1vmax ;
+        margin: 0;
+    }
+    .sidebar{
+        border: unset;
+    }
+    .sidebar-container1-2{
+        gap: 6vmax;
+       }
+}

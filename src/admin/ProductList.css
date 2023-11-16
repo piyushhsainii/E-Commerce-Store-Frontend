@@ -1,0 +1,34 @@
+.admin-icon-container{
+    text-align: center;
+    align-items: center;
+}
+
+.productListTable a{
+    text-decoration: none;
+    transition: 0.4s all;
+    color: black;
+}
+.productListTable a:hover {
+    color: tomato;
+} 
+
+.admin-icon-container a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-top: 2vmax;
+}
+
+
+.admin-icon-container {
+    text-align: center;
+    align-items: center;
+}
+
+.editicon{
+    margin-top: 2px;
+    padding-top: 2px;
+    position: relative;
+    top: 6px;
+}

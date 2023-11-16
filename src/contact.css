@@ -1,0 +1,33 @@
+.contact-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmax;
+}
+
+.contact-sub-container{
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    width: 24vw;
+    height: 10vh;
+    transition: 0.4s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4vmax;
+    border-radius: 2vmax;
+}
+
+.contact-sub-container:hover {
+    /* cursor: pointer; */
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:689px)
+ {
+    .contact-sub-container{
+        width: 100%;
+    }
+}

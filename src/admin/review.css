@@ -1,0 +1,29 @@
+.review-container2{
+    display: flex;
+    flex-direction: column;
+    width: 30vmax;
+    margin: 2vmax auto;
+    padding: 2vmax;
+    text-align: center;
+    border: 1px solid;
+    gap: 1vmax;
+
+}
+
+
+
+.review-form > input{
+    padding: 0.7vmax;
+}
+
+.search-btn{
+    background-color: tomato !important ;
+    color: white !important ;
+    padding: 1vmax !important ;
+    margin-top: 1vmax !important ;
+}
+
+
+.search-btn :hover{
+    background-color: tomato;
+}

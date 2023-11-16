@@ -1,0 +1,42 @@
+.payment-status-container2{
+    padding: 2vmax;
+    margin: 2vmax 0vmax;
+    padding-left: 0;
+}
+
+.payment-status-container2 > select{
+    padding: 1vmax;
+    background-color: tomato;
+    color: white;
+    font-family: roboto;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2vmax;
+    text-align: center;
+    cursor: pointer;
+}
+
+.payment-status-container2 > select > option {
+
+    background-color: white;
+    color: black;
+    padding: 2vmax !important;
+    margin: 2vmax;
+    font-size: 1.2vmax;
+
+
+}
+
+.option-test{
+    padding: 2vmax ;
+    margin: 2vmax;
+
+}
+
+.order-status-btn{
+    padding: 1vmax 4vmax !important;
+    background-color: tomato !important;
+    color: white !important;
+    margin-top: 1vmax !important ; 
+
+}

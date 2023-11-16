@@ -1,0 +1,53 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    padding: 6vmax 0vmax;
+    background-color: white;
+    border: 1px solid;
+    color: rgb(32, 32, 32);
+    font-family:sans-serif;
+    justify-content: center;
+    /* gap: 0; */
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    padding: 2vmax;
+    transition: 0.5s all;
+    font-family:sans-serif;
+    font-size: 1.6vmax;
+}
+
+.sidebar > a > img:hover {
+    filter: drop-shadow(0 0 10px tomato);
+  }
+
+.sidebar a:hover, .MuiTypography-root.MuiTreeItem-label.MuiTypography-body1:hover{
+    transition: 0.5s all;
+    color: tomato;
+    transform: scale(1.1);
+}
+
+.sidebar a p {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-logo{
+    width: 10vmax;
+}
+
+.MuiTypography-root{
+    /* color: rgb(32, 32, 32); */
+    /* font-family:sans-serif; */
+    /* font-size: 2vmax; */
+    background-color: white !important ;
+}
+
+.MuiTypography-root.MuiTreeItem-label.MuiTypography-body1{
+    font-size: 1.5vmax;
+    color: rgb(32, 32, 32);
+
+
+}

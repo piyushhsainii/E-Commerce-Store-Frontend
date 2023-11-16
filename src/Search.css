@@ -1,0 +1,43 @@
+.searchBox{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    text-align: center;
+    margin-top:10vmax ;
+}
+
+.searchBox > input[type="text"]{
+    padding: 0.7vmax 2vmax;
+    font-family: sans-serif;
+    font-size: 1vmax;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    border-radius: 1vw;
+}
+
+.searchBox > input[type="submit"]{
+    padding: 0.7vmax 1vmax;
+    font-family: sans-serif;
+    font-size: 1vmax;
+    background-color: tomato;
+    color: aliceblue;
+    border-radius: 0.6vw;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .searchBox{
+        margin-top: 25vmax;
+    }
+    .searchBox > input[type="text"]{
+        padding: 1.1vmax 2.5vmax;
+        font-size: 1.8vmax;
+
+    }
+    .searchBox > input[type="submit"]{
+        padding: 1.1vmax 1.6vmax;
+        font-size: 1.8vmax;
+
+    }
+}

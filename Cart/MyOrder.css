@@ -1,0 +1,97 @@
+
+.baap-of-order{
+    margin: auto;
+}
+.myOrder-container{
+    max-width: 100vw;
+    height: 100%;
+    margin-top: 10vmax;
+    width: 100%; 
+    overflow-x: hidden;
+}
+
+.myOrdersTable > div {
+    font-family: monospace;
+}
+
+.MuiDataGrid-columnsContainer{
+    z-index: 50;
+    background-color: tomato;
+    color: white;
+
+}
+
+.myOrdersTable{
+    z-index: 50;
+}
+
+.myOrdersTable  a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    transition: 0.4s all;
+}
+.myOrdersTable  a:hover {
+    color: tomato;
+}
+
+.order-name{
+    text-align: center;
+    padding: 4vmax;
+    background-color: tomato;
+    color: white;
+}
+
+.shipping-order-container{
+    width: 80vw;
+    height: 40vh;
+    margin: auto;
+}
+
+.order-details-container{
+    width: 80vw;
+    /* height: 75vh; */
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin: auto;
+    margin-top: 9vmax;
+    margin-bottom: 2vmax;
+    
+}
+
+.order-details-subpart{
+    margin-bottom: 5vmax;
+    border: 1px solid rgba(0, 0, 0, 0.164) ;
+}
+
+.shipping-info-text{
+    font-family: sans-serif;
+    font-size: 1.4vmax;
+    padding: 0.5vmax 2vmax;
+}
+
+.payment-status-container{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    font-size: 1.4vmax;
+    padding:  2vmax;
+    font-family: sans-serif;
+}
+
+.order-details-thumbnail{
+    width: 9vmax;
+}
+
+.order-items-container{
+    display: flex;
+    align-items: center;
+    gap: 3vmax;
+    padding: 1vmax;
+    font-size: 1.4vmax;
+    color: rgb(27, 27, 27);
+
+}
+
+@media screen and (max-width:689px) {
+    .myOrder-container{
+
+        height: 100vh;
+    }
+}

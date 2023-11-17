@@ -8,7 +8,7 @@ import "./ForgetPassword.css"
 
 export const ForgotPasswordComponent = ({match, history}) => {
 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch() 
     const alert = useAlert()
     
     const { user} = useSelector((state)=>state.user)

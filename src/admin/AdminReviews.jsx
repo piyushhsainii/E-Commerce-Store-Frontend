@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react'
 import Sidebar from "./sidebar"
 import { Button, Typography } from '@material-ui/core'
-import  DataGrid  from '@material-ui/data-grid'
+import  {DataGrid}  from '@material-ui/data-grid'
 import { getAllReviews ,deleteAllReviews } from '../actions/productAction'
 import { useDispatch, useSelector } from 'react-redux'
 import { Delete, Search } from '@material-ui/icons'

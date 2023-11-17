@@ -3,7 +3,7 @@ import { AllOrders, deleteOrders } from '../actions/OrderAction';
 import { useDispatch, useSelector } from 'react-redux';
 import { useAlert } from 'react-alert';
 import Sidebar from './sidebar';
-import  DataGrid  from '@material-ui/data-grid';
+import  {DataGrid}  from '@material-ui/data-grid';
 import Loader from '../../Loader';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
 import { Delete, Edit } from '@material-ui/icons';

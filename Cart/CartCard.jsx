@@ -1,5 +1,5 @@
 import React from 'react'
-import MetaData from '../../frontend/src/MetaData'
+import MetaData from '../src/MetaData'
 
 const CartCard = ( {item,RemoveFromCart} ) => {
   return (

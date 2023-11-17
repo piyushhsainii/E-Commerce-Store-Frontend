@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ["@material-ui/lab/SpeedDial", "@material-ui/lab/SpeedDialAction"],
+      external: ["@material-ui/lab/SpeedDial", "@material-ui/lab/SpeedDialAction","@material-ui/lab/Rating"],
     },
   },
   plugins: [react()],

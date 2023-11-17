@@ -11,7 +11,7 @@ import { Face } from '@material-ui/icons'
 import MetaData from './MetaData' 
 import Loader from '../Loader'
 import "./editprofile.css"
-import "./login.css"
+import "./Login.css"
 
 const EditProfile = ({history}) => {
     const dispatch = useDispatch()

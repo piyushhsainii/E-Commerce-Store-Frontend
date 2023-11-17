@@ -5,8 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ["@material-ui/lab"],
-      external:["country-state-city"]
+      external: ["@material-ui/lab,country-state-city"],
     },
   },
   plugins: [react()],

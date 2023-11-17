@@ -18,7 +18,7 @@ import EditProfile from "./EditProfile.jsx"
 import ProtectedRoute from "./Route/ProtectedRoute.jsx"
 import ChangePassword from "./ChangePassword.jsx"
 import ResetToken from "./ResetToken.jsx"
-import ForgotPasswordComponent from './resetPassword.jsx'
+import ForgotPasswordComponent from './ResetPassword.jsx'
 import Cart from "../Cart/cart.jsx"
 import ShippingInfo from '../Cart/ShippingInfo.jsx'
 import OrderConfirm from '../Cart/OrderConfirm.jsx'

@@ -6,6 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ["@material-ui/lab"],
+      external:["country-state-city"]
     },
   },
   plugins: [react()],

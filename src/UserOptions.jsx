@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { SpeedDial, SpeedDialAction } from '@material-ui/lab'
+import SpeedDial from '@material-ui/lab/SpeedDial';
+import SpeedDialAction from '@material-ui/lab/SpeedDialAction';
 import PFP from './assets/user.png'
 import { Dashboard , Person , ExitToApp , ListAlt, ShoppingCart } from '@material-ui/icons'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'

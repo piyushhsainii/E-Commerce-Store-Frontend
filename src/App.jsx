@@ -59,7 +59,7 @@ function App() {
       },
     withCredentials: true,      
   }
-    const {data} =  await axios.get(' http://localhost:5000/payment/stripeKey',
+    const {data} =  await axios.get(' https://e-commerce-my-store.onrender.com/payment/stripeKey',
     config
     )
     setstripeKey(data.stripe_key)

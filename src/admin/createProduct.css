@@ -9,7 +9,7 @@
     border: 1px solid;
     width: 20vw;
     margin: 0.5vmax auto;
-    
+
 }
 
 
@@ -19,6 +19,9 @@
     font-family: monospace;
     outline: none;
     border: none;
+    height: 2vmax;
+    align-items: center;
+
 }
 
 .create-product-container  select {
@@ -42,7 +45,12 @@
 }
 .create-svg-2{
     position: relative !important;
-    bottom: 4vmax !important;
+    right: 8.7vmax !important;
+}
+.create-svg-3{
+    position: relative !important;
+    right: 9vmax !important;
+    top: 2.5vmax;
 }
 
 .create-product-btn{ 

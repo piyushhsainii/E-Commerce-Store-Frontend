@@ -26,12 +26,12 @@ const AllProducts = ({history}) => {
         {field:"id",
         headerName:"Product ID",
         minWidth:200,
-        flex:0.4
+        flex:0.3
         },
         {field:"name",
         headerName:"Name",
         minWidth:200,
-        flex:0.4
+        flex:0.3
         },
         {field:"stock",
         headerName:"Stock",
@@ -58,7 +58,9 @@ const AllProducts = ({history}) => {
                     <Link to={`/admin/product/${params.getValue(params.id,"id")}`} >
                         <Edit className='editicon' />
                     </Link>
-                    <Button onClick={()=> deleteproducthandler(params.getValue(params.id, "id"))} >
+                    <Button
+                    style={{cursor:"pointer"}}
+                    onClick={()=> deleteproducthandler(params.getValue(params.id, "id"))} >
                         <Delete/>
                     </Button>
                         </div>                

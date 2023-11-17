@@ -93,7 +93,7 @@ const createProduct = ({history}) => {
         <Typography style={{fontSize:"2.4vmax" , color:"tomato", margin:"2vmax" }} > CREATE PRODUCT </Typography>
         <form onSubmit={createSubmitHandler}>
             <div className='create-container' >
-            <Spellcheck  className='create-svg' />
+            <Spellcheck  className='create-svg-3'  />
             <input type="text"
             placeholder='Product Name'
             value={Product}
@@ -103,7 +103,7 @@ const createProduct = ({history}) => {
 
             </div>
             <div className='create-container' >
-            <AttachMoney  className='create-svg'/>
+            <AttachMoney  className='create-svg-3'  />
             <input 
             placeholder='Price'
             type='number'
@@ -143,7 +143,7 @@ const createProduct = ({history}) => {
                 </div>
 
                 <div className='create-container' >
-                    <Storage   className='create-svg' />
+                    <Storage   className='create-svg-3' />
                 <input 
                 required
                 type="text"

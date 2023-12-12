@@ -26,6 +26,7 @@
     "axios": "^1.6.2",
     "chart.js": "^4.4.0",
     "country-state-city": "^3.2.1",
+    "esbuild": "^0.19.9",
     "helmet": "^7.0.0",
     "kark": "0.0.0-security",
     "overlay-navbar": "^1.2.3",

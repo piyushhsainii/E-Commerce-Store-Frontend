@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ["@mui/lab/SpeedDial", "@mui/lab/SpeedDialAction","@mui/lab/Rating"
-    , "@mui/data-grid" , "@mui/core" , "@mui/icons" , "@mui/lab"
+    , "@mui/data-grid" , "@mui/core" , "@mui/icons" , "@mui/lab" ,"@mui/lab/TreeItem"
     ],
     },
   },

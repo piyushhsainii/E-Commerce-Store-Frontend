@@ -17,7 +17,7 @@ import {
     Button
 
 } from "@material-ui/core";
-import  Rating  from "@material-ui/lab/Rating";
+import { Rating } from '@mui/material'
 import { ADD_REVIEW_RESET } from "./constants/productConstans";
 
 

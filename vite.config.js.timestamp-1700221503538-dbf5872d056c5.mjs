@@ -4,8 +4,8 @@ import react from "file:///E:/MERN/ECommerceSite/frontend/node_modules/@vitejs/p
 var vite_config_default = defineConfig({
   build: {
     rollupOptions: {
-      external: ["@material-ui/lab/SpeedDial", "@material-ui/lab/SpeedDialAction", "@material-ui/lab/Rating"
-      , "@material-ui/data-grid"]
+      external: ["@mui/lab/SpeedDial", "@mui/lab/SpeedDialAction", "@mui/lab/Rating"
+      , "@mui/data-grid"]
     }
   },
   plugins: [react()],

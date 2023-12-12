@@ -1,7 +1,7 @@
 // import React, { Fragment, useEffect, useRef, useState } from 'react'
 // import CheckOutSteps from '../../Cart/CheckOutSteps'
 // import MetaData from '../MetaData'
-// import { Typography } from '@material-ui/core'
+// import { Typography } from '@mui/core'
 // import { useAlert } from 'react-alert'
 // import {
 //     CardNumberElement,
@@ -12,7 +12,7 @@
 //     Elements,
 // }
 //     from "@stripe/react-stripe-js"
-// import { CreditCard, Event, Security, SecurityOutlined, VpnKey } from '@material-ui/icons'
+// import { CreditCard, Event, Security, SecurityOutlined, VpnKey } from '@mui/icons'
 // import "./payment.css"
 // import axios from 'axios'
 // import { useDispatch, useSelector } from 'react-redux'

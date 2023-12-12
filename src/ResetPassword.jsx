@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Loader from '../Loader'
 import { useDispatch, useSelector } from 'react-redux'
 import { useAlert } from 'react-alert'
-import { LockOpen } from '@material-ui/icons'
+import { LockOpen } from '@mui/icons'
 import { resetPassword } from './actions/userAction'
 import "./ForgetPassword.css"
 

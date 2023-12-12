@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import "./Order.css"
-import { CheckBox, CheckCircle, Error, ErrorOutline, StrikethroughS } from '@material-ui/icons'
-import { Typography } from '@material-ui/core'
+import { CheckBox, CheckCircle, Error, ErrorOutline, StrikethroughS } from '@mui/icons'
+import { Typography } from '@mui/core'
 import { Link } from 'react-router-dom/cjs/react-router-dom'
 import CheckOutSteps from './CheckOutSteps'
 

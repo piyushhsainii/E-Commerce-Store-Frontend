@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import MetaData from '../MetaData';
 import { useSelector } from 'react-redux';
-import { Typography } from '@material-ui/core';
+import { Typography } from '@mui/core';
 
 const OrderDetails = ({ match }) => {
   const { loading, MyOrders } = useSelector((state) => state.MyOrder);

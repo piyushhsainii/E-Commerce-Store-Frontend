@@ -4,7 +4,7 @@ import MetaData from '../src/MetaData'
 import { useDispatch, useSelector } from 'react-redux'
 import CheckOutSteps from './CheckOutSteps'
 import "./OrderConfirm.css"
-import { Typography } from '@material-ui/core'
+import { Typography } from '@mui/core'
 import axios from 'axios'
 import { useAlert } from 'react-alert'
 import { orderAction} from '../src/actions/OrderAction'

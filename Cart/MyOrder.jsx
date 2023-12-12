@@ -5,11 +5,11 @@ import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
 import { useAlert } from 'react-alert'
 import { clearErrors, getOrders } from '../src/actions/OrderAction'
-import  {DataGrid}  from "@material-ui/data-grid"
+import  {DataGrid}  from "@mui/data-grid"
 import "./MyOrder.css"
 import Loader from '../Loader'
-import { Launch } from '@material-ui/icons'
-import { Typography } from '@material-ui/core'
+import { Launch } from '@mui/icons'
+import { Typography } from '@mui/core'
 
 const MyOrder = () => {
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Loader from '../Loader'
 import { useDispatch, useSelector } from 'react-redux'
-import { MailOutline } from '@material-ui/icons'
+import { MailOutline } from '@mui/icons'
 import "./resetToken.css"
 import { ForgotPassword } from './actions/userAction'
 import { useAlert } from 'react-alert'

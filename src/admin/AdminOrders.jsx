@@ -3,11 +3,11 @@ import { AllOrders, deleteOrders } from '../actions/OrderAction';
 import { useDispatch, useSelector } from 'react-redux';
 import { useAlert } from 'react-alert';
 import Sidebar from './sidebar';
-import  {DataGrid}  from '@material-ui/data-grid';
+import  {DataGrid}  from '@mui/data-grid';
 import Loader from '../../Loader';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
-import { Delete, Edit } from '@material-ui/icons';
-import { Button } from '@material-ui/core';
+import { Delete, Edit } from '@mui/icons';
+import { Button } from '@mui/core';
 import { DELETE_ORDER_RESET } from '../constants/OrderConstants';
 
 const AdminOrders = ({history}) => {

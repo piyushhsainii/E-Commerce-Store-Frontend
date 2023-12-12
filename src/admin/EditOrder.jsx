@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import MetaData from '../MetaData';
 import { useDispatch, useSelector } from 'react-redux';
-import { Button, Typography } from '@material-ui/core';
+import { Button, Typography } from '@mui/core';
 import Sidebar from './sidebar';
 import './EditOrder.css';
 import { useAlert } from 'react-alert';

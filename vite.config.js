@@ -11,11 +11,11 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  server:{
-    proxy:{
-      "/api": "http://192.168.1.10:5000"
+  // server:{
+  //   proxy:{
+  //     "/api": "http://192.168.1.10:5000"
 
-    }
-  }
+  //   }
+  // }
 })
 

@@ -13,12 +13,13 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "dependencies": { 
-    "@mui/core": "^4.12.4",
-    "@mui/data-grid": "^4.0.0-alpha.37",
-    "@mui/icons": "^4.11.3",
-    "@mui/lab": "^5.0.0-alpha.156",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@mui/material": "^5.15.0",
+    "@mui/system": "^5.15.0",
     "@stripe/react-stripe-js": "^2.3.1",
     "@stripe/stripe-js": "^2.1.10",
     "alert": "^5.1.4",

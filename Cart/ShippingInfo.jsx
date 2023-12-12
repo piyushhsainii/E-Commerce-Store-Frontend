@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react'
 import { useAlert } from 'react-alert'
 import { useDispatch, useSelector } from 'react-redux'
 import { Country, State} from "country-state-city"
-import { Home, LocationCity, PhoneOutlined, PinDrop, PublicOutlined, TransferWithinAStation } from '@mui/icons'
+import { Home, LocationCity, PhoneOutlined, PinDrop, PublicOutlined, TransferWithinAStation } from '@mui/icons-material'
 import MetaData from '../src/MetaData'
 import "./ShippingInfo.css"
 import CheckOutSteps from "./CheckOutSteps.jsx"

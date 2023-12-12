@@ -12,7 +12,7 @@
 //     Elements,
 // }
 //     from "@stripe/react-stripe-js"
-// import { CreditCard, Event, Security, SecurityOutlined, VpnKey } from '@mui/icons'
+// import { CreditCard, Event, Security, SecurityOutlined, VpnKey } from '@mui/icons-material'
 // import "./payment.css"
 // import axios from 'axios'
 // import { useDispatch, useSelector } from 'react-redux'

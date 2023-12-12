@@ -3,7 +3,7 @@ import { useAlert } from 'react-alert'
 import { useDispatch, useSelector } from 'react-redux'
 import { CHANGE_PASSWORD_RESET } from './constants/userConstants'
 import Loader from '../Loader'
-import { LockOpen, VpnKey, VpnKeyRounded } from '@mui/icons'
+import { LockOpen, VpnKey, VpnKeyRounded } from '@mui/icons-material'
 import "./changepassword.css"
 import { updatePassword, updateProfile } from './actions/userAction'
 import MetaData from './MetaData'

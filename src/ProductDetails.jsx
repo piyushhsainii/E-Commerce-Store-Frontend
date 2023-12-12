@@ -14,9 +14,9 @@ import {
     DialogActions,
     DialogContent,
     DialogTitle,
-    Button
 
-} from "@mui/core";
+} from "@mui/material";
+import Button from '@mui/material/Button'
 import { Rating } from '@mui/material'
 import { ADD_REVIEW_RESET } from "./constants/productConstans";
 

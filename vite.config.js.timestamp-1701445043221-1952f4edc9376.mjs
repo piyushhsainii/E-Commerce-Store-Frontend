@@ -8,7 +8,7 @@ var vite_config_default = defineConfig({
         "@mui/lab/SpeedDial",
         "@mui/lab/SpeedDialAction",
         "@mui/lab/Rating",
-        "@mui/data-grid"
+        "@mui/x-data-grid"
       ]
     }
   },

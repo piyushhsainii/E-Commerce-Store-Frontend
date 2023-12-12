@@ -2,8 +2,8 @@ import React, { Fragment } from 'react'
 import MetaData from './MetaData'
 import { useSelector } from 'react-redux'
 import "./about.css"
-import { Typography } from '@mui/core'
-import { AddBoxOutlined, ArrowUpward, ContactMail, Contacts, Launch } from '@mui/icons'
+import { Typography } from '@mui/material'
+import { AddBoxOutlined, ArrowUpward, ContactMail, Contacts, Launch } from '@mui/icons-material'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 

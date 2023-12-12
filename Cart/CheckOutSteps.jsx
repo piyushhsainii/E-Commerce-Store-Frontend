@@ -1,5 +1,5 @@
-import { Step, StepLabel, Stepper, Typography } from '@mui/core'
-import { AccountBalance, LibraryAddCheck, LocalShipping } from '@mui/icons'
+import { Step, StepLabel, Stepper, Typography } from '@mui/material'
+import { AccountBalance, LibraryAddCheck, LocalShipping } from '@mui/icons-material'
 import React from 'react'
 import { Fragment } from 'react'
 

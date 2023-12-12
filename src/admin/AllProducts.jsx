@@ -1,13 +1,13 @@
 import React, { Fragment, useEffect } from 'react';
-import  {DataGrid}  from '@mui/data-grid';
+import  {DataGrid}  from '@mui/x-data-grid';
 import {useDispatch, useSelector} from 'react-redux'
 import { useAlert } from 'react-alert'
 import { Link } from 'react-router-dom/cjs/react-router-dom';
-import { Delete, Edit } from '@mui/icons';
+import { Delete, Edit } from '@mui/icons-material';
 import Sidebar from "./sidebar"
 import Loader from '../../Loader'
 import  { deleteProducts, getAdminProducts } from '../actions/productAction'
-import { Button } from "@mui/core";
+import { Button } from "@mui/material";
 import "./ProductList.css"
 import { PRODUCT_DELETE_RESET } from '../constants/productConstans';
 

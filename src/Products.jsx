@@ -5,8 +5,8 @@ import Loader from "../Loader";
 import Product from './ProductCard'
 import actionProduct, { clearErrors, getProductDetails } from "./actions/productAction";
 import Pagination from "react-js-pagination";
-import  {Slider}  from  "@mui/core";
-import {Typography} from "@mui/core";
+import  {Slider}  from  "@mui/material";
+import {Typography} from "@mui/material";
 import { useAlert } from "react-alert";
 import MetaData from './MetaData' 
 

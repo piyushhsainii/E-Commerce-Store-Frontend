@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import SpeedDial from '@mui/lab/SpeedDial';
 import SpeedDialAction from '@mui/lab/SpeedDialAction';
 import PFP from './assets/user.png'
-import { Dashboard , Person , ExitToApp , ListAlt, ShoppingCart } from '@mui/icons'
+import { Dashboard , Person , ExitToApp , ListAlt, ShoppingCart } from '@mui/icons-material'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 import './Header.css'
 import { useAlert } from 'react-alert'
 import { logout } from './actions/userAction'
 import { useDispatch, useSelector } from 'react-redux'
-import {Backdrop} from '@mui/core'
+import {Backdrop} from '@mui/material'
 const UserOptions = ({user}) => { 
   const [ open, setOpen] = useState(false)
   

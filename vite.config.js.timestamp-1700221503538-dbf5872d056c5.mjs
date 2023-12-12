@@ -5,7 +5,7 @@ var vite_config_default = defineConfig({
   build: {
     rollupOptions: {
       external: ["@mui/lab/SpeedDial", "@mui/lab/SpeedDialAction", "@mui/lab/Rating"
-      , "@mui/data-grid"]
+      , "@mui/x-data-grid"]
     }
   },
   plugins: [react()],

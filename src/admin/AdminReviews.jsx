@@ -1,10 +1,10 @@
 import React, { Fragment, useEffect, useState } from 'react'
 import Sidebar from "./sidebar"
-import { Button, Typography } from '@mui/core'
-import  {DataGrid}  from '@mui/data-grid'
+import { Button, Typography } from '@mui/material'
+import  {DataGrid}  from '@mui/x-data-grid'
 import { getAllReviews ,deleteAllReviews } from '../actions/productAction'
 import { useDispatch, useSelector } from 'react-redux'
-import { Delete, Search } from '@mui/icons'
+import { Delete, Search } from '@mui/icons-material'
 import "./review.css"
 import { useAlert } from 'react-alert'
 import { DELETE_REVIEWS_RESET } from '../constants/userConstants'

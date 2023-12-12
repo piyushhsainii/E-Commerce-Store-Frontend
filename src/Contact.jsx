@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import './contact.css'
-import { GitHub, Instagram, LinkedIn, Twitter } from '@mui/icons'
-import { Typography } from '@mui/core'
+import { GitHub, Instagram, LinkedIn, Twitter } from '@mui/icons-material'
+import { Typography } from '@mui/material'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 const Contact = () => {

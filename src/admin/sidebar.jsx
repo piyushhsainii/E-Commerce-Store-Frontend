@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import logo from '../assets/LOGO2.png'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
-import { Add, Create, Dashboard, ExpandLess, ExpandMore, ListAlt, People, PostAdd, RateReview, ThumbDownAltRounded } from '@mui/icons'
+import { Add, Create, Dashboard, ExpandLess, ExpandMore, ListAlt, People, PostAdd, RateReview, ThumbDownAltRounded } from '@mui/icons-material'
 import  TreeItem from '@mui/lab/TreeItem'
 import  TreeView  from '@mui/lab/TreeView'
 import './sidebar.css'

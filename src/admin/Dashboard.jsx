@@ -2,7 +2,7 @@ import React, { Fragment, useEffect } from 'react'
 import Sidebar from './sidebar.jsx'
 import "./dashboard.css"
 import { Link } from 'react-router-dom/cjs/react-router-dom.js'
-import { Typography } from '@mui/core'
+import { Typography } from '@mui/material'
 import { Doughnut, Line } from 'react-chartjs-2'
 import { 
     CategoryScale,

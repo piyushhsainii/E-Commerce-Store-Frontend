@@ -20,7 +20,6 @@ import { getAdminProducts } from '../actions/productAction.jsx'
 import { AllOrders } from '../actions/OrderAction.jsx'
 import { AllAdminUsers } from '../actions/userAction.jsx'
 import Loader from '../../Loader.jsx'
-import { ORDER_REQUEST } from '../constants/OrderConstants.jsx'
  
 const Dashboard = () => {
 

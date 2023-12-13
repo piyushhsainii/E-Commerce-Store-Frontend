@@ -51,7 +51,7 @@
 //             },
 //         }
 //             console.log('ok')
-//             const { data } = await axios.post('http://localhost:5000/payment/process', 
+//             const { data } = await axios.post('https://e-commerce-my-store.onrender.com/payment/process', 
 //             amount,
 //             config
 //             )

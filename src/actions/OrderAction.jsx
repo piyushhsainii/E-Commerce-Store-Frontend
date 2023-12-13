@@ -25,7 +25,7 @@ export const orderAction  = (order)=> async(dispatch)=>{
         dispatch({type : ORDER_REQUEST})
 
 
-        const { data} = await axios.post('http://localhost:5000/createOrder',
+        const { data} = await axios.post('https://e-commerce-my-store.onrender.com/createOrder',
         order,
         config
         )
@@ -55,7 +55,7 @@ export const getOrders = ()=> async(dispatch)=>{
             type:GET_ORDER_REQUEST
         })
 
-        const { data } = await axios.get('http://localhost:5000/myOrders',
+        const { data } = await axios.get('https://e-commerce-my-store.onrender.com/myOrders',
         config
         )
         
@@ -83,7 +83,7 @@ export const AllOrders = ()=> async(dispatch)=>{
             type:ALL_ORDER_REQUEST
         })
 
-        const { data } = await axios.get('http://localhost:5000/AllOrders',
+        const { data } = await axios.get('https://e-commerce-my-store.onrender.com/AllOrders',
         config
         )
         
@@ -112,7 +112,7 @@ export const updateOrders = (id,order)=> async(dispatch)=>{
             type:UPDATE_ORDER_REQUEST
         })
 
-        const { data } = await axios.put(`http://localhost:5000/updateOrder/${id}`,
+        const { data } = await axios.put(`https://e-commerce-my-store.onrender.com/updateOrder/${id}`,
         order,
         config
         )
@@ -141,7 +141,7 @@ export const deleteOrders = (id)=> async(dispatch)=>{
             type:DELETE_ORDER_REQUEST
         })
 
-        const { data } = await axios.delete(`http://localhost:5000/DeleteOrder/${id}`,
+        const { data } = await axios.delete(`https://e-commerce-my-store.onrender.com/DeleteOrder/${id}`,
         config
         )
         

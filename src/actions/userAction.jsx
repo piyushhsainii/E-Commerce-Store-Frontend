@@ -50,7 +50,7 @@ export const userAction = (email,password)=>async(dispatch)=>{
     dispatch({
         type:ALL_USER_REQUEST
     })     
-    const {data} =  await axios.post(' http://localhost:5000/login',
+    const {data} =  await axios.post(' https://e-commerce-my-store.onrender.com/login',
      {email,password} ,config
      )    
     dispatch({
@@ -77,7 +77,7 @@ export const registerUser = (myForm) => async(dispatch)=>{
             type:REG_USER_REQUEST
         })
 
-        const {data} = await axios.post('http://localhost:5000/register',
+        const {data} = await axios.post('https://e-commerce-my-store.onrender.com/register',
         myForm,
         {
             headers:{"Content-Type":"multipart/form-data"},
@@ -103,7 +103,7 @@ export const loadUser = ()=>async(dispatch)=>{
     dispatch({
         type:LOAD_USER_REQUEST
     })     
-     const {data} =  await axios.get('http://localhost:5000/Myprofile',
+     const {data} =  await axios.get('https://e-commerce-my-store.onrender.com/Myprofile',
      config
      )
 
@@ -125,7 +125,7 @@ export const loadUser = ()=>async(dispatch)=>{
 
 export const logout = ()=> async(dispatch) =>{
     try {
-        await axios.get('http://localhost:5000/logout',
+        await axios.get('https://e-commerce-my-store.onrender.com/logout',
         config
         
         )
@@ -147,7 +147,7 @@ export const updateProfile = (myForm) => async(dispatch)=>{
             type: USER_UPDATE_REQUEST
         })
 
-        const {data} = await axios.put('http://localhost:5000/UpdateProfile',
+        const {data} = await axios.put('https://e-commerce-my-store.onrender.com/UpdateProfile',
         myForm,
         {
             headers:{"Content-Type":"multipart/form-data"},
@@ -173,7 +173,7 @@ export const updatePassword = (password) => async(dispatch)=>{
             type: CHANGE_PASSWORD_REQUEST
         })
 
-        const {data} = await axios.put('http://localhost:5000/UpdatePassword',
+        const {data} = await axios.put('https://e-commerce-my-store.onrender.com/UpdatePassword',
         password,
         {
             headers:{"Content-Type":"application/json"},
@@ -198,7 +198,7 @@ export const ForgotPassword = (passwords) => async(dispatch)=>{
             type: FORGOT_PASSWORD_REQUEST
         })
 
-        const {data} = await axios.post('http://localhost:5000/password/forgot',
+        const {data} = await axios.post('https://e-commerce-my-store.onrender.com/password/forgot',
         passwords,
         {
             headers:{"Content-Type":"application/json"},
@@ -224,7 +224,7 @@ export const resetPassword = (token, passwords) => async(dispatch)=>{
             type: FORGOT_PASSWORD_REQUEST
         })
 
-        const {data} = await axios.put(`http://localhost:5000/password/reset/${token}`,
+        const {data} = await axios.put(`https://e-commerce-my-store.onrender.com/password/reset/${token}`,
         passwords,
         {
             headers:{"Content-Type":"application/json"},
@@ -258,7 +258,7 @@ export const AllAdminUsers = ()=>async(dispatch)=>{
     dispatch({
         type:ALL_ADMIN_USER_REQUEST
     })     
-     const {data} =  await axios.get('http://localhost:5000/getAllusers',
+     const {data} =  await axios.get('https://e-commerce-my-store.onrender.com/getAllusers',
      config
      )
 
@@ -286,7 +286,7 @@ export const GETAdminUser = (id)=>async(dispatch)=>{
     dispatch({
         type:GET_ADMIN_USER_REQUEST
     })     
-     const {data} =  await axios.get(`http://localhost:5000/getUser/${id}`,
+     const {data} =  await axios.get(`https://e-commerce-my-store.onrender.com/getUser/${id}`,
      config
      )
 
@@ -315,7 +315,7 @@ export const UpdateUserAdmin = (id,userData)=>async(dispatch)=>{
     dispatch({
         type:UPDATE_ADMIN_USER_REQUEST
     })     
-     const {data} =  await axios.put(`http://localhost:5000/getUser/${id}`,
+     const {data} =  await axios.put(`https://e-commerce-my-store.onrender.com/getUser/${id}`,
      userData,
      config
      )
@@ -337,7 +337,7 @@ export const DeleteUserAdmin = (id)=>async(dispatch)=>{
     dispatch({
         type:DELETE_ADMIN_USER_REQUEST
     })     
-     const {data} =  await axios.delete(`http://localhost:5000/getUser/${id}`,
+     const {data} =  await axios.delete(`https://e-commerce-my-store.onrender.com/getUser/${id}`,
      config
      )
 

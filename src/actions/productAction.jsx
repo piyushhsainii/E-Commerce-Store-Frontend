@@ -32,11 +32,11 @@ const actionProduct = (keyword="", currentPage=1, price=[0,25000], category ,rat
             type:All_PRODUCT_REQUEST
         });
 
-        let link  = `http://localhost:5000/products?keyword=${keyword}&page=${currentPage}&price[$gte]=${price[0]}&price[$lte]=${price[1]}&ratings[$gte]=${rating}`
+        let link  = `https://e-commerce-my-store.onrender.com/products?keyword=${keyword}&page=${currentPage}&price[$gte]=${price[0]}&price[$lte]=${price[1]}&ratings[$gte]=${rating}`
 
         
         if(category){
-            link = `http://localhost:5000/products?keyword=${keyword}&page=${currentPage}&price[$gte]=${price[0]}&price[$lte]=${price[1]}&category=${category}&ratings[$gte]=${rating}`
+            link = `https://e-commerce-my-store.onrender.com/products?keyword=${keyword}&page=${currentPage}&price[$gte]=${price[0]}&price[$lte]=${price[1]}&category=${category}&ratings[$gte]=${rating}`
         }
         const {data} = await axios.get(link); 
         
@@ -56,7 +56,7 @@ export const getProductDetails = (id) => async (dispatch) => {
         dispatch({
             type:PRODUCT_DETAILS_REQUEST
         });
-        const {data} = await axios.get(`http://localhost:5000/product/${id}`)
+        const {data} = await axios.get(`https://e-commerce-my-store.onrender.com/product/${id}`)
 
         dispatch({
             type:PRODUCT_DETAILS_SUCCESS,
@@ -91,7 +91,7 @@ export const AddReviewAction = (reviewData) => async(dispatch)=>{
             type:ADD_REVIEW_REQUEST
         })
 
-        const { data} = await axios.put('http://localhost:5000/review',
+        const { data} = await axios.put('https://e-commerce-my-store.onrender.com/review',
         reviewData,
         config
         )
@@ -121,7 +121,7 @@ export const AddNewProduct = (productData) => async(dispatch)=>{
             type:NEW_PRODUCT_REQUEST
         })
 
-        const { data} = await axios.post('http://localhost:5000/addProducts',
+        const { data} = await axios.post('https://e-commerce-my-store.onrender.com/addProducts',
         productData,
         config
         )
@@ -151,7 +151,7 @@ export const getAdminProducts = () => async(dispatch)=>{
             type:PRODUCT_ADMIN_REQUEST
         })
 
-        const { data} = await axios.get('http://localhost:5000/admin/products',
+        const { data} = await axios.get('https://e-commerce-my-store.onrender.com/admin/products',
         config
         )
         dispatch({
@@ -180,7 +180,7 @@ export const updateProducts = (id, productData) => async(dispatch)=>{
             type:PRODUCT_UPDATE_REQUEST
         })
 
-        const { data} = await axios.put(`http://localhost:5000/product/${id}`,
+        const { data} = await axios.put(`https://e-commerce-my-store.onrender.com/product/${id}`,
         productData,
         config
         )
@@ -210,7 +210,7 @@ export const deleteProducts = (id) => async(dispatch)=>{
             type:PRODUCT_DELETE_REQUEST
         })
 
-        const { data} = await axios.delete(`http://localhost:5000/product/${id}`,
+        const { data} = await axios.delete(`https://e-commerce-my-store.onrender.com/product/${id}`,
         config
         )
         dispatch({
@@ -241,7 +241,7 @@ export const getAllReviews = (id) => async(dispatch)=>{
             type:ALL_REVIEWS_REQUEST
         })
 
-        const { data} = await axios.get(`http://localhost:5000/reviews?id=${id}`,
+        const { data} = await axios.get(`https://e-commerce-my-store.onrender.com/reviews?id=${id}`,
         config
         )
         dispatch({
@@ -270,7 +270,7 @@ export const deleteAllReviews = (id,productID) => async(dispatch)=>{
             type:DELETE_ADMIN_USER_REQUEST
         })
 
-        const { data} = await axios.delete(`http://localhost:5000/reviews?id=${id}&productID=${productID}`,
+        const { data} = await axios.delete(`https://e-commerce-my-store.onrender.com/reviews?id=${id}&productID=${productID}`,
         config
         )
         dispatch({

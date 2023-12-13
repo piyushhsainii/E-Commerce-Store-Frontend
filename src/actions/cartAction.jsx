@@ -2,7 +2,7 @@ import { ADD_TO_CART, REMOVE_FROM_CART, SAVE_SHIPPING_INFO } from "../constants/
 import axios from "axios";
 
 export const addToCart = (id, quantity) => async(dispatch, getState)=> {
-   const { data } = await axios.get(`http://localhost:5000/product/${id}`)
+   const { data } = await axios.get(`https://e-commerce-my-store.onrender.com/product/${id}`)
     const {name , price, Stock} = data.data
 
     const cartValue = {
